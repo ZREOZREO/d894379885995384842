@@ -134,4 +134,4 @@ client.on("ready", () => {
     console.log(`Successfully logined as ${client.user.tag} `)
 });
 
-client.login("ODk0Mzc5ODg1OTk1Mzg0ODQy.YVpKLQ.oy_2HDomK1_C2lBiH9snttoBb9U");
+client.login(process.env.TOKEN);
